@@ -1,11 +1,8 @@
-<h1>Pages#answer</h1>
-<p>Find me in app/views/pages/answer.html.erb</p>
-
 <div class="container">
 
   <div class="ans-style">
     <div class="row">
-    <div class="col-xs-12">
+      <div class="col-xs-12">
         <h3> <%= @question %> </h3>
         <h6>- You</h6>
       </div>
@@ -23,3 +20,8 @@
 
 </div>
 
+<div class="text-center">
+  <div class="btn btn-bib">
+    <%= link_to "Ask another question", "/pages/ask" %>
+  </div>
+</div>

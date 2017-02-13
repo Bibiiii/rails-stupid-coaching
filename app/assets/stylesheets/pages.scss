@@ -13,4 +13,19 @@
   h3 {
     font-size: 40px;
   }
+  h6 {
+    font-size: 20px;
+  }
+}
+
+.btn-bib {
+  color: white;
+  background-color: pink;
+  a {
+    text-decoration: none;
+    color: white;
+    }
+  &:hover {
+    background-color: blue;
+  }
 }
